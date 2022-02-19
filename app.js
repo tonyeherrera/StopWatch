@@ -15,7 +15,7 @@ window.onload = function () {
   
     buttonStart.onclick = function() {
       
-      clearInterval(Interval);
+     
        Interval = setInterval(startTimer, 10);
     }
     
@@ -28,8 +28,12 @@ window.onload = function () {
        clearInterval(Interval);
       tens = "00";
         seconds = "00";
+            minutes = "00";
+                hours = "00";
       appendTens.innerHTML = tens;
         appendSeconds.innerHTML = seconds;
+        appendMinutes.innerHTML = minutes;
+        appendHours.innerHTML = hours;
     }
     
      
