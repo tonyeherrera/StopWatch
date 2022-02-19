@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(243, 161, 10)
+}
+#head{
+    color:white;
+    font-size: 10vw;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border-style: solid;
+    border-color: white;
+    border-width: .5vw;
+    border-radius: 3vw;
+    padding-bottom: 1.5vw;
+    margin-top: 1vw;
+    }
+#description{
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    margin-top: -5vw;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: .2vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+    }
+    .clock{
+        text-align:center;
+        font-size:5vw;
+        color:white;
+    }
+    .buttons{
+        
+        text-align: center;
+    }
+    button{
+        background: rgb(243, 161, 10);
+        color:white;
+        border: solid 1px white;
+        text-decoration:none;
+        cursor:pointer;
+        font-size:1.2em;
+        padding:18px 10px;
+        width:180px;
+        margin: 10px;
+        outline: none;
+       
+
+     }
+     button:hover{
+            background:white;
+            border: solid 1px white;
+            color: rgb(243, 161, 10);
+            }
